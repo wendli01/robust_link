@@ -1,0 +1,21 @@
+name: robust_link
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - anaconda
+dependencies:
+  - dglteam/label/th24_cu124::dgl
+  - networkx
+  - pandas
+  - python=3.11
+  - scikit-learn
+  - seaborn
+  - numpy
+  - langchain
+  - nltk
+  - sentence-transformers
+  - neo4j
+  - pip:
+      - torch==2.7.0+cu128
+      - --index-url https://download.pytorch.org/whl/cu128
