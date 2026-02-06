@@ -1,6 +1,6 @@
 # The Missing Link: Joint Legal Citation Prediction using Heterogeneous Graph Enrichment
 
-This repository accompanies the ECIR 2026 paper [Robust Generalizable Legal Citation Prediction]().
+This repository accompanies the 2026 paper [Robust Generalizable Legal Citation Prediction](https://arxiv.org/abs/2602.04812).
 
 It contains all code as well as experimental setups described in the paper including results with all visualizations as standalone `jupyter` notebooks.
 
@@ -8,6 +8,15 @@ It contains all code as well as experimental setups described in the paper inclu
 If you use code, data or any results in this repository, please cite:
 
 ```bibtex
+@misc{wendlinger2026robustgeneralizableheterogeneouslegal,
+      title={Robust Generalizable Heterogeneous Legal Link Prediction}, 
+      author={Lorenz Wendlinger and Simon Alexander Nonn and Abdullah Al Zubaer and Michael Granitzer},
+      year={2026},
+      eprint={2602.04812},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2602.04812}, 
+}
 
 ```
 
