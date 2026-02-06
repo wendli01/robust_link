@@ -86,8 +86,8 @@ case_df: pd.DataFrame
 
 
 
-hge = graph_models.Model(device=device)
-scores = util.date_score_lp(hge, G201k, dates={'Case': case_df.date}, random_state=42)
+rhge = graph_models.Model(device=device, cat_all=True, edge_dropout=.5, decoder_asymm_interleave=True)
+scores = util.date_score_lp(rhge, G201k, dates={'Case': case_df.date}, random_state=42)
 print(scores.agg(['mean', 'std').round(3))
 ```
 ### Node Features
