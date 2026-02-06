@@ -72,7 +72,7 @@ To replicate the experiments, [`jupyter`](https://jupyter.org/install) needs to 
 
 
 All models are implemented as `sklearn` compatible Estimators. The main model, `graph_models.Model` is a superset of all used approaches and can be configured via hyperparameters.
-For more information, see the [main study](experiments/old_link_prediction.ipynb).
+For more information, see the [main study](experiments/legal_link_prediction.ipynb).
 
 
 ```python
